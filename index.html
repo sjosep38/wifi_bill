@@ -131,11 +131,13 @@
   font-size: 1rem;
   width: 100%;
   margin-top: 10px;
+  text-align: center;
 }
 
 #mobileNumberModal .form-control:focus {
   box-shadow: none;
   border-color: #007bff;
+  
 }
 
 #mobileNumberModal .invalid-feedback {
@@ -230,7 +232,7 @@
           <p>Please enter your mobile number to receive the voucher code via SMS.</p>
           <form id="mobileNumberForm">
             <div class="mb-3">
-              <input type="text" class="form-control" id="mobileNumber" placeholder="09XXXXXXXXX" required>
+              <input type="text" class="form-control" id="mobileNumber" placeholder="e.g. 09227823014" style="letter-spacing: 3px;" required>
               <div class="invalid-feedback">Please enter a valid Philippine mobile number.</div>
             </div>
             <input type="hidden" id="amount" name="amount">
